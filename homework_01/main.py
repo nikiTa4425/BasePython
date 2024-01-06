@@ -11,6 +11,7 @@ def power_numbers():
     >>> power_numbers(1, 2, 5, 7)
     <<< [1, 4, 25, 49]
     """
+    return [el**2 for el in numbers] 
 
 
 # filter types
@@ -20,6 +21,9 @@ PRIME = "prime"
 
 
 def filter_numbers():
+def is_prime(n):
+    if n==2 or n== 3: return 
+        
     """
     функция, которая на вход принимает список из целых чисел,
     и возвращает только чётные/нечётные/простые числа
